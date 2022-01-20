@@ -76,8 +76,9 @@ body{
     height: 5px;
     background-color: #fff;
     left: calc(50% - 5px);
+    top: -8px;
     /*剪出来一个三角形*/
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(0 100%,50% 0,100% 100%);
 }
 /*移入小图，改变大图*/
 .container ul li:nth-child(1):hover ~.big-img{
